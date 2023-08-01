@@ -1,0 +1,17 @@
+{
+  "name": "serkanakyol/expressshipping",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+      "OSL-3.0"
+  ],
+  "require": {
+    "php": "~7.4|~8.1"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "GGMGastro\\ExpressShipping\\": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <expressshipping>
+                <active>0</active>
+                <model>GGMGastro\ExpressShipping\Model\Carrier\ExpressShipping</model>
+                <name>Express</name>
+                <title>Express Shipping</title>
+                <handling_type>F</handling_type>
+                <handling_fee>15</handling_fee>
+                <max_package_weight>20</max_package_weight>
+                <price>10</price>
+                <kg_step_for_base_price>5</kg_step_for_base_price>
+                <additional_price>2</additional_price>
+                <kg_step_for_additional_price>1</kg_step_for_additional_price>
+                <sallowspecific>0</sallowspecific>
+                <specificerrmsg>This shipping method is not available at this moment.</specificerrmsg>
+                <sort_order>100</sort_order>
+            </expressshipping>
+        </carriers>
+    </default>
+</config>
